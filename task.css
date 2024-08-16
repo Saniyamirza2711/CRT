@@ -1,0 +1,76 @@
+body,.main{
+    width: 100%;
+    height: 800px;
+    background-color: bisque;
+}
+.vaag{
+    background-image: url(vaag.jpg);
+    width: 80%;
+    height: 300px;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.a1{
+    width: 80%;
+    height: 200px;
+}
+.logo{
+    width: 10%;
+    height: 80%; 
+    float: left;
+    margin-left: 40%;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.btns{
+    width: 40%;
+    height: 80%;
+    float: left;
+    margin-left: 10%;
+}
+.bt{
+    width: 100px;
+    height: 60px;
+    margin-left: 5%;
+    border-radius: 10%;
+    margin-top: 30px;
+    float: left;
+}
+.text{
+    margin-left: 30%;
+    color: aliceblue;
+}
+.productdiv{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+    margin-top: 10px;
+}
+.plistdiv{
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    margin-left: 8%;
+    margin-top: 90px;
+    float: left;
+    border-radius: 15%;
+    
+}
+.plistimg{
+    width: 60%;
+    height: 200px;
+    margin: 8% 20%;
+    border-radius: 15%;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color:palevioletred;
+    color: black;
+    margin-left: 100px;
+    border-radius: 15%;
+}
+.btn:hover{
+    background-color:greenyellow;
+    color: aliceblue;
+}

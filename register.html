@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="maindiv">
+        <div style="width: 100%; height: 16%; background-color: rgb(53, 207, 141);">
+            <div style="width: 10%; height: 80%; float: left;">
+                <img src="img.png" alt="logo" width="150px" height="150px">
+            </div>
+            <div style="width:45%; height: 80%; float: left; background-color: black; margin-top:10px; margin-left: 40px; border-radius: 20px;">
+                <aside align="center"><h1 style="font-size: 36px; color: white; ">VAAGDEVI</h1></aside>
+            </div>
+            <div style="width: 40%; height: 80%; float: left;">
+                <button class="xyz"><a href="login.html"> Login</a></button>
+                <button class="xyz"><a href="register.html">Register</a></button>
+                <button class="xyz"><a href="contact.html"> Contact</a></button>
+            </div>
+        </div>
+        <div class="contentdiv" >
+            <div class="videodiv" >
+                <video src="video.mp4" controls muted autoplay width="300px" height="300px"  ></video>
+            </div>
+            <div class="formdiv">
+                <form action="" method="post">
+                    <div class="row">
+                        <label for="" class="display">Registration Form</label>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="umame">username:</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="text" name="ss" id="uname" placeholder="enter username here" pattern="[A-Z a-z]{3,}" required >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="pass">password:</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="password" name="upas" id="pass" placeholder="enter password" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="mobile" >Mobile no:</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="number" name="umob" id="mobile" placeholder="enter mobile no" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="email">Email:</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="email" name="uemail" id="email" placeholder="enter your email id"  required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="dob">DOB:</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="date" name="udob" id="dob" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="gender">Gender:</label>
+                        </div>
+                        <div class="col1">
+                            <input type="radio" name="ugen" id="gender" value="male">Male
+                            <input type="radio" name="gen" id="gender" value="female">Female
+                            <input type="radio" name="gen" id="gender" value="other">other
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="cat">Category:</label>
+                        </div>
+                        <div class="col1">
+                            <select>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label for="pic">Profile</label>
+                        </div>
+                        <div class="col1">
+                            <input class="abc" type="file" name="ufile" id="pic" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <input  type="checkbox" name="ucheck" id="">I accept terms 
+                        </div>
+                    <div class="row">
+                        <div class="col1">
+                            <input class="btn" type="submit" value="Register">
+                        </div>
+                        <div class="col1">
+                            <input class="btn" type="reset" value="clear">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
